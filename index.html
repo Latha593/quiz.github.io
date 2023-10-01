@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Quiz App</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="app">
+            <div id="name_card">
+                <div style="padding-bottom: 30px;">Enter Your Name</div>
+                <div style="padding-bottom: 30px;"><input id="name" type="text" placeholder="enter your name here..."></div>
+                <button id="submit-btn">Start Quiz</button>
+            </div>
+            <div id="quiz_content">
+                <div class="head">
+                    <h1>Simple Quiz</h1>
+                    <div id="timer">Time Remaining: 15 seconds</div>
+                </div>
+                <div class="quiz">
+                    <h2 id="question">Question goes here</h2>
+                    <div id="answer-buttons">
+                        <button class="btn">Answer 1</button>
+                        <button class="btn">Answer 2</button>
+                        <button class="btn">Answer 3</button>
+                        <button class="btn">Answer 4</button>
+                    </div>
+                    <button id="next-btn">Next</button>
+                    <button id="reset-btn" >Restart</button>
+                </div>
+           </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
