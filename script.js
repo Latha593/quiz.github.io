@@ -1,47 +1,47 @@
 const questions=[
     {
-        question:"Which is largest animal in the world?",
+        question:"Who is making web standards?",
         answers:[
-            {text:"Shark",correct:false},
-            {text:"Blue whale",correct:true},
-            {text:"Elephant",correct:false},
-            {text:"Giraffe",correct:false}
+            {text:"Mozilla",correct:false},
+            {text:"Microsoft",correct:false},
+            {text:"The World Wide Web Consortium",correct:true},
+            {text:"Firefox",correct:false}
         ]
     },
     {
-        question:"Which animal in the world?",
+        question:"How can you open a link in a new browser window?",
         answers:[
-            {text:"Shark",correct:false},
-            {text:"Blue whale",correct:true},
-            {text:"Elephant",correct:false},
-            {text:"Giraffe",correct:false}
+            {text:"_blank",correct:true},
+            {text:"Target",correct:false},
+            {text:"Same",correct:false},
+            {text:"Open",correct:false}
         ]
     },
     {
-        question:"Which largest animal in the world?",
+        question:"What does HTML stands for?",
         answers:[
-            {text:"Shark",correct:false},
-            {text:"Blue whale",correct:true},
-            {text:"Elephant",correct:false},
-            {text:"Giraffe",correct:false}
+            {text:"Hyperlinks and Text Markup Language",correct:false},
+            {text:"Hyper Text Markup Language",correct:true},
+            {text:"Home Tool Markup Language",correct:false},
+            {text:"Hyper Tool Markup Language",correct:false}
         ]
     },
     {
-        question:"Which is largest in the world?",
+        question:"In CSS, Select the property to set an image in a list instead of a standard bullet?",
         answers:[
-            {text:"Shark",correct:false},
-            {text:"Blue whale",correct:true},
-            {text:"Elephant",correct:false},
-            {text:"Giraffe",correct:false}
+            {text:"list-image:",correct:false},
+            {text:"image-list:",correct:false},
+            {text:"list-image-src:",correct:false},
+            {text:"list-style-image:",correct:true}
         ]
     },
     {
-        question:"Which is largest animal world?",
+        question:"In CSS,Select the property used to set the spacing in between lines of text?",
         answers:[
-            {text:"Shark",correct:false},
-            {text:"Blue whale",correct:true},
-            {text:"Elephant",correct:false},
-            {text:"Giraffe",correct:false}
+            {text:"letter-spacing",correct:false},
+            {text:"line-height",correct:true},
+            {text:"line-spacing",correct:false},
+            {text:"spacing",correct:false}
         ]
     }
 ];
